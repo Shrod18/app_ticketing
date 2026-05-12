@@ -1,0 +1,92 @@
+# Git ignore file for Ticketing Application
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.log
+.env.local
+.env.*.local
+
+# PHP
+*.php~
+.php_cs.cache
+
+# Configuration locale
+src/config/Database.php.local
+src/config/*.local.php
+
+# Uploads (fichiers clients)
+uploads/*
+!uploads/.gitkeep
+
+# Sessions
+sessions/*
+!sessions/.gitkeep
+
+# Cache
+cache/*
+!cache/.gitkeep
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Node (si utilisé)
+node_modules/
+npm-debug.log
+
+# Dépendances
+vendor/
+
+# Bases de données locales
+*.sql.backup
+*.sql.bak
+database.sqlite
+
+# Logs
+logs/
+*.log
+error.log
+debug.log
+
+# Fichiers temporaires
+tmp/
+temp/
+*.tmp
+
+# Fichiers de testt
+test_uploads/
+*.test.php
+
+# Fichiers de déploiement
+deploy.log
+deploy.lock
+
+# Fichiers sensibles
+.env
+.env.secret
+config.secret.php
+credentials.json
+
+# Fichiers de compilation
+dist/
+build/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Système
+.htpasswd
+.htaccess.bak
+
+# Windows
+Thumbs.db
+desktop.ini
