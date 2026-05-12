@@ -1,7 +1,7 @@
 <?php
 
 class Database {
-    private $host = 'localhost';
+    private $host = '127.0.0.1';
     private $db_name = 'ticketing_app';
     private $db_user = 'root';
     private $db_pass = '';

@@ -58,7 +58,7 @@
 
                         <p style="font-size: 12px; color: #7f8c8d; margin-bottom: 20px;">
                             Comptes de test disponibles :<br>
-                            alice.dupont@company.com | bob.martin@company.com<br>
+                            alice.dupont@company.com | bob.martin@company.com | charlie.durand@company.com | shrod.46@gmail.com<br>
                             Mot de passe : password123
                         </p>
 
